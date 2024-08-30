@@ -20,7 +20,7 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: roboto.style.fontFamily,
-    h1: { fontSize: '2.6rem' },
+    h1: { fontSize: '2.6rem', textAlign:"center" },
     h2: { fontSize: '1.6rem' },
   },
   components: {
@@ -30,7 +30,7 @@ const theme = createTheme({
           width: { xs: '100%', flexShrink: 1 },
           textAlign: 'center',
           py: 2,
-          px: 4,
+          px: 2,
           m: 2,
           borderRadius: 1,
           fontSize: '1.4rem',

@@ -8,6 +8,7 @@ import ProTip from '@/components/ProTip';
 import Copyright from '@/components/Copyright';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function Home() {
   return (
@@ -22,8 +23,8 @@ export default function Home() {
         }}
       >
         <Paper>
-          <Typography variant="h2">Mydata1</Typography>
-          <Typography>
+          <Typography variant="h2" sx={{mb: 2}}>Mydata1</Typography>
+          <Typography sx={{mb: 2}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec quam
             sed metus lobortis mollis in eget eros. Morbi porta, odio vehicula
             rutrum consequat, felis massa egestas dolor, eget elementum augue
@@ -33,8 +34,8 @@ export default function Home() {
           <Button variant="contained">read more...</Button>
         </Paper>
         <Paper>
-          <Typography variant="h2">Mydata2</Typography>
-          <Typography>
+          <Typography variant="h2" sx={{mb: 2}}>Mydata2</Typography>
+          <Typography sx={{mb: 2}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec quam
             sed metus lobortis mollis in eget eros. Morbi porta, odio vehicula
             rutrum consequat, felis massa egestas dolor, eget elementum augue
@@ -44,8 +45,8 @@ export default function Home() {
           <Button variant="contained">read more...</Button>
         </Paper>
         <Paper>
-          <Typography variant="h2">Mydata3</Typography>
-          <Typography>
+          <Typography variant="h2" sx={{mb: 2}}>Mydata3</Typography>
+          <Typography sx={{mb: 2}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec quam
             sed metus lobortis mollis in eget eros. Morbi porta, odio vehicula
             rutrum consequat, felis massa egestas dolor, eget elementum augue
@@ -55,6 +56,7 @@ export default function Home() {
           <Button variant="contained">read more...</Button>
         </Paper>
       </Box>
+      <HomeIcon color="primary">Home</HomeIcon>
       <Copyright />
     </Container>
     // <Container maxWidth="lg">
